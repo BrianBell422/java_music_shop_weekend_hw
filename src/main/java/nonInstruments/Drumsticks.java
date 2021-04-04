@@ -12,4 +12,20 @@ public class Drumsticks extends NonInstruments {
         this.material = material;
         this.length = length;
     }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
 }
