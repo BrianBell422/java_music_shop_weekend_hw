@@ -43,4 +43,9 @@ public class GuitarTest {
     public void guitarHasPickups() {
         assertEquals(2, guitar.getPickups());
     }
+
+    @Test
+    public void guitarCanPlay() {
+        assertEquals("strum-strum", guitar.play());
+    }
 }

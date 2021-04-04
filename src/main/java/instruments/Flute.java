@@ -1,6 +1,6 @@
 package instruments;
 
-public class Flute extends Instruments{
+public class Flute extends Instrument {
 
     private int holes;
 
@@ -15,5 +15,9 @@ public class Flute extends Instruments{
 
     public void setHoles(int holes) {
         this.holes = holes;
+    }
+
+    public String play() {
+        return "tootle-too";
     }
 }

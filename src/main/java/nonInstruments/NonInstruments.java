@@ -1,6 +1,6 @@
 package nonInstruments;
 
-public abstract class NonInstruments {
+public abstract class NonInstruments{
 
     private String description;
     private double buyPrice;

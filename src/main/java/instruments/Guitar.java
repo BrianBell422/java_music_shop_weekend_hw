@@ -1,6 +1,6 @@
 package instruments;
 
-public class Guitar extends Instruments{
+public class Guitar extends Instrument implements IPlay{
 
     private int strings;
     private int pickups;
@@ -25,5 +25,9 @@ public class Guitar extends Instruments{
 
     public void setPickups(int pickups) {
         this.pickups = pickups;
+    }
+
+    public String play() {
+        return "strum-strum";
     }
 }

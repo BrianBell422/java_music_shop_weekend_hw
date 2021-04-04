@@ -39,4 +39,9 @@ public class KeyboardTest {
     public void keyboardHasKeys() {
         assertEquals(50, keyboard.getKeys());
     }
+
+    @Test
+    public void keyboardCanPlay() {
+        assertEquals("dee-daa-dum", keyboard.play());
+    }
 }

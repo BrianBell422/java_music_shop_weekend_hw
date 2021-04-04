@@ -1,19 +1,18 @@
 package instruments;
 
-public abstract class Instruments {
+public abstract class Instrument implements IPlay{
 
     private InstrumentType instrumentType;
     private double buyPrice;
     private double sellPrice;
     private String colour;
 
-    public Instruments(InstrumentType instrumentType, double buyPrice, double sellPrice, String colour) {
+    public Instrument(InstrumentType instrumentType, double buyPrice, double sellPrice, String colour) {
         this.instrumentType = instrumentType;
         this.buyPrice = buyPrice;
         this.sellPrice = sellPrice;
         this.colour = colour;
     }
-
 
     public InstrumentType getInstrumentType() {
         return instrumentType;

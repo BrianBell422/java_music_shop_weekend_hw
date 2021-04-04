@@ -1,5 +1,6 @@
 import instruments.Flute;
 import instruments.Guitar;
+import instruments.IPlay;
 import instruments.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,7 +13,7 @@ public class FluteTest {
 
     @Before
     public void before() {
-        flute = new Flute(InstrumentType.WOODWIND, 20.00, 40.00, "brown", 20);
+        flute = new Flute(InstrumentType.WOODWIND, 20.00, 40.00, "brown",20);
     }
 
     @Test
@@ -38,5 +39,10 @@ public class FluteTest {
     @Test
     public void fluteHasHoles() {
         assertEquals(20, flute.getHoles());
+    }
+
+    @Test
+    public void fluteCanPlay() {
+        assertEquals("tootle-too", flute.play());
     }
 }

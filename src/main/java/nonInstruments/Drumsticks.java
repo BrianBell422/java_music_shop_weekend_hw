@@ -1,7 +1,5 @@
 package nonInstruments;
 
-import nonInstruments.NonInstruments;
-
 public class Drumsticks extends NonInstruments {
 
     private String material;

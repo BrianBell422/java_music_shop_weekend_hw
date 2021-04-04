@@ -1,6 +1,6 @@
 package instruments;
 
-public class Keyboard extends Instruments{
+public class Keyboard extends Instrument {
 
     private int keys;
 
@@ -15,5 +15,9 @@ public class Keyboard extends Instruments{
 
     public void setKeys(int keys) {
         this.keys = keys;
+    }
+
+    public String play() {
+        return "dee-daa-dum";
     }
 }
