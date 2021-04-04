@@ -43,4 +43,9 @@ public class KeyboardTest {
     public void keyboardCanPlay() {
         assertEquals("dee-daa-dum", keyboard.play());
     }
+
+    @Test
+    public void keyboardMarkup() {
+        assertEquals(20, keyboard.calculateMarkup(),0.0);
+    }
 }

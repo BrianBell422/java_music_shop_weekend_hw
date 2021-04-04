@@ -32,4 +32,9 @@ public class SheetMusicTest {
     public void sheetMusicHasPages() {
         assertEquals(50, sheetMusic.getPages());
     }
+
+    @Test
+    public void sheetMusicMarkup() {
+        assertEquals(10, sheetMusic.calculateMarkup(),0.0);
+    }
 }

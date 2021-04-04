@@ -37,4 +37,9 @@ public class DrumsticksTest {
     public void drumsticksHaveLength() {
         assertEquals(420, drumsticks.getLength(), 0.0);
     }
+
+    @Test
+    public void drumstickMarkup() {
+        assertEquals(10, drumsticks.calculateMarkup(),0.0);
+    }
 }

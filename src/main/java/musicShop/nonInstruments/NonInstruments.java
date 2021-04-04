@@ -1,7 +1,6 @@
 package musicShop.nonInstruments;
 
 import musicShop.ISell;
-import musicShop.instruments.IPlay;
 
 public abstract class NonInstruments implements ISell {
 
@@ -37,5 +36,9 @@ public abstract class NonInstruments implements ISell {
 
     public void setSellPrice(double sellPrice) {
         this.sellPrice = sellPrice;
+    }
+
+    public double calculateMarkup() {
+        return this.sellPrice - this.buyPrice;
     }
 }

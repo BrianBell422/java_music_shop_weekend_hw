@@ -47,4 +47,8 @@ public abstract class Instrument implements IPlay, ISell {
     public void setColour(String colour) {
         this.colour = colour;
     }
+
+    public double calculateMarkup() {
+        return this.sellPrice - this.buyPrice;
+    }
 }

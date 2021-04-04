@@ -1,6 +1,6 @@
 package musicShop.instruments;
 
-public class Guitar extends Instrument implements IPlay{
+public class Guitar extends Instrument{
 
     private int strings;
     private int pickups;
