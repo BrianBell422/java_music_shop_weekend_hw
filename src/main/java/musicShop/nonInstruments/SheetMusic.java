@@ -1,4 +1,4 @@
-package nonInstruments;
+package musicShop.nonInstruments;
 
 public class SheetMusic extends NonInstruments {
 

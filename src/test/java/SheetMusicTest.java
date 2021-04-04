@@ -1,4 +1,4 @@
-import nonInstruments.SheetMusic;
+import musicShop.nonInstruments.SheetMusic;
 import org.junit.Before;
 import org.junit.Test;
 

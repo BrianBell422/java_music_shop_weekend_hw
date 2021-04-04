@@ -1,6 +1,8 @@
-package instruments;
+package musicShop.instruments;
 
-public abstract class Instrument implements IPlay{
+import musicShop.ISell;
+
+public abstract class Instrument implements IPlay, ISell {
 
     private InstrumentType instrumentType;
     private double buyPrice;

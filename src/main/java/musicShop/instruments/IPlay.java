@@ -1,4 +1,4 @@
-package instruments;
+package musicShop.instruments;
 
 public interface IPlay {
 

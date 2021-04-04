@@ -1,7 +1,5 @@
-import instruments.Flute;
-import instruments.Guitar;
-import instruments.IPlay;
-import instruments.InstrumentType;
+import musicShop.instruments.Flute;
+import musicShop.instruments.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
 

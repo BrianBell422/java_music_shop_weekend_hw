@@ -1,5 +1,5 @@
-import instruments.Guitar;
-import instruments.InstrumentType;
+import musicShop.instruments.Guitar;
+import musicShop.instruments.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
 

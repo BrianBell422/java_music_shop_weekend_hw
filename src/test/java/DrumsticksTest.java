@@ -1,4 +1,4 @@
-import nonInstruments.Drumsticks;
+import musicShop.nonInstruments.Drumsticks;
 import org.junit.Before;
 import org.junit.Test;
 

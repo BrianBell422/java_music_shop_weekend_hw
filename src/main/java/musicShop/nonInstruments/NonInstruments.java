@@ -1,6 +1,9 @@
-package nonInstruments;
+package musicShop.nonInstruments;
 
-public abstract class NonInstruments{
+import musicShop.ISell;
+import musicShop.instruments.IPlay;
+
+public abstract class NonInstruments implements ISell {
 
     private String description;
     private double buyPrice;

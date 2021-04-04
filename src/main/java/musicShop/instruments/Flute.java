@@ -1,4 +1,4 @@
-package instruments;
+package musicShop.instruments;
 
 public class Flute extends Instrument {
 
