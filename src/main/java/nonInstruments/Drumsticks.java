@@ -3,4 +3,13 @@ package nonInstruments;
 import nonInstruments.NonInstruments;
 
 public class Drumsticks extends NonInstruments {
+
+    private String material;
+    private double length;
+
+    public Drumsticks(String description, double buyPrice, double sellPrice, String material, double length) {
+        super(description, buyPrice, sellPrice);
+        this.material = material;
+        this.length = length;
+    }
 }
